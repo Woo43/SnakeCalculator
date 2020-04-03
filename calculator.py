@@ -20,7 +20,7 @@ elif op == "equals":
     if (a>b):
         print("False, a > b.")
     else:
-        print('False a < b.')
+        print('False, a < b.')
 #else code/error
 else:
     print("Sorry about that. Looks like you made a typo. Try again.")
