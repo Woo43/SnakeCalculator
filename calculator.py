@@ -18,9 +18,9 @@ elif op == "equals":
     if (a==b):
         print('true')
     if (a>b):
-        print("false, a > b")
+        print("False, a > b.")
     else:
-        print('false a < b')
+        print('False a < b.')
 #else code/error
 else:
-    print("Oops. You made a typo.")
+    print("Sorry about that. Looks like you made a typo. Try again.")
