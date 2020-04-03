@@ -3,7 +3,7 @@ print("Value 1:")
 a = int(input())
 print("Value 2:")
 b = int(input())
-print("Choose your operator (plus, minus, multiply, divide, or equals).")
+print("Choose your operator (plus, minus, multiply, divide, or equals/<>).")
 #calculation code
 op = input()
 if op == "plus":
@@ -14,7 +14,7 @@ elif op == "multiply":
     print(a*b)
 elif op == "divide":
     print(a/b)
-elif op == "equals":
+elif op == "equals/<>":
     if (a==b):
         print('true')
     if (a>b):
