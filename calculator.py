@@ -15,7 +15,7 @@ elif op == "divide":
     print(a/b/c)
 elif op == "equals":
     if (a==b):
-        print('true')
+        print('True.')
     elif (a>b):
         print("False, a > b.")
     else:
