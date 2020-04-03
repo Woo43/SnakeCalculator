@@ -1,6 +1,6 @@
 print("Do you want 2 or 3 values?")
 z = input()
-if z == "Am I the dev?"
+if z == "Am I the dev?":
     print(No.)
 if z == 'two':
         #code for the values
