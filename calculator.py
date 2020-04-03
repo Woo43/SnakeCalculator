@@ -1,5 +1,7 @@
 print("Do you want 2 or 3 values?")
 z = input()
+if z == "Am I the dev?"
+    print(No.)
 if z == 'two':
         #code for the values
     print("Value 1:"); a = int(input())
