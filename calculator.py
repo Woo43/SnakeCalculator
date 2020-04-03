@@ -1,21 +1,21 @@
 print("Do you want 2 or 3 values?")
 z = input()
 if z == 'two':
-    #code for the values
+        #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (plus, minus, multiply, divide, or equals).")
+    print("Choose your operator (+, -, *, /, or =).")
     #calculation code
     op = input()
-    if op == "plus":
-        print(a+b)
-    elif op == "minus":
-        print(a-b)
-    elif op == "multiply":
-        print(a*b)
-    elif op == "divide":
-        print(a/b)
-    elif op == "equals":
+    if op == "+":
+        print(a+b+c)
+    elif op == "-":
+        print(a-b-c)
+    elif op == "*":
+        print(a*b*c)
+    elif op == "/":
+        print(a/b/c)
+    elif op == "=":
         if (a==b):
             print('True.')
         elif (a>b):
@@ -29,18 +29,18 @@ elif z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (plus, minus, multiply, divide, or equals).")
+    print("Choose your operator (+, -, *, /, or =).")
     #calculation code
     op = input()
-    if op == "plus":
+    if op == "+":
         print(a+b+c)
-    elif op == "minus":
+    elif op == "-":
         print(a-b-c)
-    elif op == "multiply":
+    elif op == "*":
         print(a*b*c)
-    elif op == "divide":
+    elif op == "/":
         print(a/b/c)
-    elif op == "equals":
+    elif op == "=":
         if (a==b):
             print('True.')
         elif (a>b):
@@ -55,16 +55,16 @@ else:
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator (plus, minus, multiply, or divide).")
+    print("Choose your operator (+, -, *, or /).")
     #calculation code
     op = input()
-    if op == "plus":
+    if op == "+":
         print(a+b+c)
-    elif op == "minus":
+    elif op == "-":
         print(a-b-c)
-    elif op == "multiply":
+    elif op == "*":
         print(a*b*c)
-    elif op == "divide":
+    elif op == "/":
         print(a/b/c)
     #else code/error
     else:
