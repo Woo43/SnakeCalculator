@@ -1,8 +1,6 @@
 #code for the values
-print("Value 1:")
-a = int(input())
-print("Value 2:")
-b = int(input())
+print("Value 1:"); a = int(input())
+print("Value 2:"); b = int(input())
 print("Choose your operator (plus, minus, multiply, divide, or equals).")
 #calculation code
 op = input()
@@ -17,7 +15,7 @@ elif op == "divide":
 elif op == "equals":
     if (a==b):
         print('true')
-    if (a>b):
+    elif (a>b):
         print("False, a > b.")
     else:
         print('False, a < b.')
