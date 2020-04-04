@@ -19,7 +19,10 @@ elif z == "two" or z == "2":
     elif op == "*" or op == "multiply":
         print(a * b)
     elif op == "/" or op == "divide":
-        print(a / b)
+        if b == 0:
+            print('Nice try.')
+        else:
+            print(a / b)
     elif op == "=" or op == "equals":
         if a == b:
             print("True.")
@@ -62,7 +65,10 @@ elif z == "three" or z == "3":
     elif op == "*" or op == "multiply":
         print(a * b * c)
     elif op == "/" or op == "divide":
-        print(a / b / c)
+        if b == 0 or c == 0:
+            print('Nice try.')
+        else:
+            print(a / b / c)
     elif op == "cube a":
         print(a * a * a)
     elif op == "cube b":
