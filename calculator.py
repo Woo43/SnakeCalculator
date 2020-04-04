@@ -10,13 +10,13 @@ if z == 'two' or "2":
     #calculation code
     op = input()
     if op == "+":
-        print(a+b+c)
+        print(a+b)
     elif op == "-":
-        print(a-b-c)
+        print(a-b)
     elif op == "*":
-        print(a*b*c)
+        print(a*b)
     elif op == "/":
-        print(a/b/c)
+        print(a/b)
     elif op == "=":
         if (a==b):
             print('True.')
