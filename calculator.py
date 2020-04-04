@@ -6,7 +6,7 @@ elif z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals, or square (only uses value 1).")
+    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals, or square.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -34,7 +34,7 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or equals.")
+    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or cube.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -45,8 +45,10 @@ elif z == 'three' or z == '3':
         print(a*b*c)
     elif op == "/" or op == 'divide':
         print(a/b/c)
-    #else code/error
+    elif op == "cube":
+        print('Value 1's cube: 'a*a*a' Value 2's cube: 'b*b*b' Value 3's cube: 'c*c*c)
+    #jokular people error
     else:
-        print("Sorry about that. Looks like you made a typo. Try again.")
+        print("Looks like you made a typo. Sorry about that.")
 else:
     print("Sorry about that. Looks like you made a typo. Try again.")
