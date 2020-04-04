@@ -24,7 +24,7 @@ elif z == 'two' or z == '2':
             print("False, a > b.")
         else:
             print('False, a < b.')
-    elif op == 'square'
+    elif op == 'square':
         print(a*a)
     #else code/error
     else:
