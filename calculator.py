@@ -40,7 +40,7 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, square a, square b, sqare c, cube a, cube b, or cube c.")
+    print("Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, square a, square b, square c, cube a, cube b, or cube c.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
