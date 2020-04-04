@@ -6,7 +6,7 @@ elif z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or equals.")
+    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals, or square (only uses value 1).")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -24,6 +24,8 @@ elif z == 'two' or z == '2':
             print("False, a > b.")
         else:
             print('False, a < b.')
+    elif op == 'square'
+        print(a*a)
     #else code/error
     else:
         print("Sorry about that. Looks like you made a typo. Try again.")
