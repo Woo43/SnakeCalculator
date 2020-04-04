@@ -1,4 +1,3 @@
-
 print('Do you want 2 or 3 values?')
 z = input()
 if z == "Is Woo43 the dev?":
@@ -7,7 +6,7 @@ elif z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals square a, or square b.")
+    print("Choose your operator: + and plus, -  and minus, * and multiply,  / and divide, = and equals square a, or square b.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -37,7 +36,7 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, cube a, cube b, or cube c.")
+    print("Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, cube a, cube b, or cube c.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
