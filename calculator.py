@@ -28,7 +28,7 @@ elif z == 'two' or z == '2':
         print('Value 1's square: 'a*a' Value 2's square: 'b*b)
     #else code/error
     else:
-        print("Sorry about that. Looks like you made a typo. Try again.")
+        print("Looks like you made a typo. TSorry about that.")
 elif z == 'three' or z == '3':
     #code for the values
     print("Value 1:"); a = int(input())
@@ -51,4 +51,4 @@ elif z == 'three' or z == '3':
     else:
         print("Looks like you made a typo. Sorry about that.")
 else:
-    print("Sorry about that. Looks like you made a typo. Try again.")
+    print("Looks like you made a typo. Sorry about that.")
