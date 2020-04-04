@@ -5,7 +5,7 @@ elif z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator: + and plus, -  and minus, * and multiply,  / and divide, = and equals, cube a, cube b square a, or square b.")
+    print("Choose your operator: + and plus, -  and minus, * and multiply,  / and divide, = and equals, sqrt a, sqrt b, cube a, cube b square a, or square b.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -43,7 +43,7 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, square a, square b, square c, cube a, cube b, or cube c.")
+    print("Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, sqrt a, sqrt b, sqrt c square a, square b, square c, cube a, cube b, or cube c.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
