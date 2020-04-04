@@ -1,5 +1,4 @@
-print('Do you want 2 or 3 values?')
-z = input()
+z = input('Do you want 2 or 3 values? ')
 if z == "Is Woo43 the dev?":
     print('Yes.')
 elif z == 'two' or z == '2':
@@ -32,6 +31,10 @@ elif z == 'two' or z == '2':
         print(a*a*a)
     elif op == "cube b":
         print(b*b*b)
+    elif op == "sqrt a":
+        print(sqrt(a))
+    elif op == 'sqrt b':
+        print(sqrt(b))
     #else code/error
     else:
         print("Looks like you made a typo. Sorry about that.")
@@ -63,6 +66,12 @@ elif z == 'three' or z == '3':
         print(b*b)
     elif op == 'square c':
         print(c*c)
+    elif op == "sqrt a":
+        print(sqrt(a))
+    elif op == 'sqrt b':
+        print(sqrt(b))
+    elif op == 'sqrt c':
+        print(sqrt(c))
     #jokular people error
     else:
         print("Looks like you made a typo. Sorry about that.")
