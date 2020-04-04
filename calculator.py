@@ -7,7 +7,7 @@ elif z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals, or square.")
+    print("Choose your operator (+ and plus, -  and minus, * and multiply,  / and divide, = and equals square a, or square b.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -25,8 +25,10 @@ elif z == 'two' or z == '2':
             print("False, a > b.")
         else:
             print('False, a < b.')
-    elif op == 'square':
-        print('a squared:' a*a' b squared: 'b*b)
+    elif op == 'square a':
+        print(a*a)
+    elif op == 'square b':
+        print(b*b)
     #else code/error
     else:
         print("Looks like you made a typo. Sorry about that.")
@@ -35,7 +37,7 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or cube.")
+    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, cube a, cube b, or cube c.")
     #calculation code
     op = input()
     if op == "+" or op == 'plus':
@@ -46,8 +48,12 @@ elif z == 'three' or z == '3':
         print(a*b*c)
     elif op == "/" or op == 'divide':
         print(a/b/c)
-    elif op == "cube":
-        print('a cubed: 'a*a*a' b cubed: 'b*b*b' c cubed: 'c*c*c)
+    elif op == "cube a":
+        print(a*a*a)
+    elif op == "cube b":
+        print(b*b*b)
+    elif op == "cube c":
+        print(c*c*c)
     #jokular people error
     else:
         print("Looks like you made a typo. Sorry about that.")
