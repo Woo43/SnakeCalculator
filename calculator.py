@@ -1,3 +1,4 @@
+
 print('Do you want 2 or 3 values?')
 z = input()
 if z == "Is Woo43 the dev?":
@@ -25,10 +26,10 @@ elif z == 'two' or z == '2':
         else:
             print('False, a < b.')
     elif op == 'square':
-        print('Value 1's square: 'a*a' Value 2's square: 'b*b)
+        print('a squared:' a*a' b squared: 'b*b)
     #else code/error
     else:
-        print("Looks like you made a typo. TSorry about that.")
+        print("Looks like you made a typo. Sorry about that.")
 elif z == 'three' or z == '3':
     #code for the values
     print("Value 1:"); a = int(input())
@@ -46,7 +47,7 @@ elif z == 'three' or z == '3':
     elif op == "/" or op == 'divide':
         print(a/b/c)
     elif op == "cube":
-        print('Value 1's cube: 'a*a*a' Value 2's cube: 'b*b*b' Value 3's cube: 'c*c*c)
+        print('a cubed: 'a*a*a' b cubed: 'b*b*b' c cubed: 'c*c*c)
     #jokular people error
     else:
         print("Looks like you made a typo. Sorry about that.")
