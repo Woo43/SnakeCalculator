@@ -6,18 +6,18 @@ if z == 'two' or z == '2':
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
-    print("Choose your operator (+, -, *, /, or =).")
+    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or equals.")
     #calculation code
     op = input()
-    if op == "+":
+    if op == "+" or op == 'plus':
         print(a+b)
-    elif op == "-":
+    elif op == "-" or op == 'minus':
         print(a-b)
-    elif op == "*":
+    elif op == "*" or op == 'multiply':
         print(a*b)
-    elif op == "/":
+    elif op == "/" or op == 'divide':
         print(a/b)
-    elif op == "=":
+    elif op == "=" or op == 'equals':
         if (a==b):
             print('True.')
         elif (a>b):
@@ -32,16 +32,16 @@ elif z == 'three' or z == '3':
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
     print("Value 3:"); c = int(input())
-    print("Choose your operator (+, -, *, or /).")
+    print("Choose your operator (+ or plus, -  or minus, * or multiply,  / or divide, = or equals.")
     #calculation code
     op = input()
-    if op == "+":
+    if op == "+" or op == 'plus':
         print(a+b+c)
-    elif op == "-":
+    elif op == "-" or op == 'minus':
         print(a-b-c)
-    elif op == "*":
+    elif op == "*" or op == 'multiply':
         print(a*b*c)
-    elif op == "/":
+    elif op == "/" or op == 'divide':
         print(a/b/c)
     #else code/error
     else:
