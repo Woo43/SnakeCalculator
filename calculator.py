@@ -2,7 +2,7 @@ print('Do you want 2 or 3 values?')
 z = input()
 if z == "Am I the dev?":
     print('No.')
-if z == 'two', or "2":
+if z == 'two' or "2":
         #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
@@ -27,7 +27,7 @@ if z == 'two', or "2":
     #else code/error
     else:
         print("Sorry about that. Looks like you made a typo. Try again.")
-elif z == 'three', or '3':
+elif z == 'three' or '3':
     #code for the values
     print("Value 1:"); a = int(input())
     print("Value 2:"); b = int(input())
