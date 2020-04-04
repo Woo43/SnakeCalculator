@@ -1,6 +1,6 @@
 print('Do you want 2 or 3 values?')
 z = input()
-if z == "Is Woo43 the dev":
+if z == "Is Woo43 the dev?":
     print('Yes.')
 elif z == 'two' or z == '2':
         #code for the values
