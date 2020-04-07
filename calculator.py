@@ -1,3 +1,4 @@
+import math
 z = input("Do you want 2 or 3 values? ")
 if z == "Is Woo43 the dev?":
     print("Yes.")
