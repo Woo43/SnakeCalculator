@@ -9,7 +9,7 @@ elif z == "two" or z == "2":
     print("Value 2:")
     b = int(input())
     print(
-        "Choose your operator: + and plus, -  and minus, * and multiply,  / and divide, = and equals, sqrt a, sqrt b, cube a, cube b square a, or square b."
+        "Choose your operator: + and plus, -  and minus, * and multiply,  / and divide, = and equals, sqrt 1, sqrt 2, cube a, cube b square a, or square b."
     )
     # calculation code
     op = input()
@@ -39,10 +39,10 @@ elif z == "two" or z == "2":
         print(a * a * a)
     elif op == "cube b":
         print(b * b * b)
-    elif op == "sqrt a":
-        print(sqrt(a))
-    elif op == "sqrt b":
-        print(sqrt(b))
+    elif op == "sqrt 1":
+        print(math.sqrt(a))
+    elif op == "sqrt 2":
+        print(math.sqrt(b))
     # else code/error
     else:
         print("Looks like you made a typo. Sorry about that.")
@@ -55,7 +55,7 @@ elif z == "three" or z == "3":
     print("Value 3:")
     c = int(input())
     print(
-        "Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, sqrt a, sqrt b, sqrt c square a, square b, square c, cube a, cube b, or cube c."
+        "Choose your operator: + or plus, -  or minus, * or multiply,  / or divide, sqrt 1, sqrt 2, sqrt 3, square a, square b, square c, cube a, cube b, or cube c."
     )
     # calculation code
     op = input()
@@ -82,13 +82,13 @@ elif z == "three" or z == "3":
         print(b * b)
     elif op == "square c":
         print(c * c)
-    elif op == "sqrt a":
-        print(sqrt(a))
-    elif op == "sqrt b":
-        print(sqrt(b))
-    elif op == "sqrt c":
-        print(sqrt(c))
-    # jokular people error
+    elif op == "sqrt 1":
+        print(math.sqrt(a))
+    elif op == "sqrt 2":
+        print(math.sqrt(b))
+    elif op == "sqrt 3":
+        print(math.sqrt(c))
+    # error
     else:
         print("Looks like you made a typo. Sorry about that.")
 else:
