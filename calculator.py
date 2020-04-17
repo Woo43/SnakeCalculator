@@ -1,4 +1,5 @@
 import math
+
 z = input("Do you want 2 or 3 values? ")
 if z == "Is Woo43 the dev?":
     print("Yes.")
@@ -21,7 +22,7 @@ elif z == "two" or z == "2":
         print(a * b)
     elif op == "/" or op == "divide":
         if b == 0:
-            print('Nice try.')
+            print("Nice try.")
         else:
             print(a / b)
     elif op == "=" or op == "equals":
@@ -67,7 +68,7 @@ elif z == "three" or z == "3":
         print(a * b * c)
     elif op == "/" or op == "divide":
         if b == 0 or c == 0:
-            print('Nice try.')
+            print("Nice try.")
         else:
             print(a / b / c)
     elif op == "cube a":
